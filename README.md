@@ -7,4 +7,5 @@
 - Rules for redundant react types and settings for the version of react.
 - Hooks =  add statefulness in the application where data is rendered follow an order.
 - Hooks should never be put in if statements or loops i.e protection pkg `eslint-plugin-react-hooks@4.3.0`
-- 
+- Link tags help manage internal navigation `Switch tag were replaced by Routes tags`
+- useParams can pull ids with the help of BrowserRouter 
