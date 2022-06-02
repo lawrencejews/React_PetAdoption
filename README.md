@@ -20,3 +20,5 @@ handleIndexClick = (event) => {
   };
 
 ```
+- Error handling can only be done with classes where lifecycle function helping to handle error`componentDidCatch & componentDidUpdate`. 
+- useRef give the same thingin a container for every render
