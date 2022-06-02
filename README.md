@@ -9,3 +9,14 @@
 - Hooks should never be put in if statements or loops i.e protection pkg `eslint-plugin-react-hooks@4.3.0`
 - Link tags help manage internal navigation `Switch tag were replaced by Routes tags`
 - useParams can pull ids with the help of BrowserRouter 
+- Class components `this` manages the instance i.e. the state however, hooks can only be used to wrap the Class.
+- Config class properties with babel to leave out the constructor. 
+- Event binding conversion from a string to a number 
+```
+handleIndexClick = (event) => {
+    this.setState({
+      active: +event.target.dataset.index,  
+    });
+  };
+
+```
